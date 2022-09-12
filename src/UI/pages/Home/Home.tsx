@@ -8,8 +8,9 @@ import {
   StyledImage,
 } from "./Home.sc";
 import Button from "UI/atoms/Button/Button";
-import { images, resume, email } from "assets/common/links";
+import { images, links } from "assets/common/links";
 const { ms } = images;
+const { resume, email } = links;
 
 const Home = () => {
   return (
@@ -27,8 +28,8 @@ const Home = () => {
           </p>
         </StyledIntro>
         <StyledButtons>
-          <Button color={"red"} text={"Resume"} link={resume.link} />
-          <Button color={"grey"} text={"Contact Me"} link={email.email} />
+          <Button color={"red"} text={"Resume"} link={resume} />
+          <Button color={"grey"} text={"Contact Me"} link={email} />
         </StyledButtons>
       </StyledContent>
       <StyledImage src={ms} alt="Monika Swidzinska" />
