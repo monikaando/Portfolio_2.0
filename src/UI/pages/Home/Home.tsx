@@ -3,12 +3,13 @@ import {
   StyledHome,
   StyledTitle,
   StyledIntro,
+  StyledButtons,
   StyledContent,
   StyledImage,
 } from "./Home.sc";
-import { images } from "assets/common/images";
+import Button from "UI/atoms/Button/Button";
+import { images, resume, email } from "assets/common/links";
 const { ms } = images;
-// import { resume } from 'assets/common/resume'
 
 const Home = () => {
   return (
@@ -16,10 +17,19 @@ const Home = () => {
       <StyledContent>
         <StyledTitle>Monika Swidzinska</StyledTitle>
         <StyledIntro>
-          I am a Frontend Developer with extensive JavaScript experience,
-          passionate about bringing design to life. I am a mentor for aspiring
-          developers and Ironhack ambasador.
+          <p>
+            I am a <b>Frontend Developer</b> with extensive JavaScript
+            experience, passionate about bringing design to life.
+          </p>
+          <p>
+            I am a <b>mentor</b> for aspiring developers as well as an{" "}
+            <b> Ironhack ambassador</b>.
+          </p>
         </StyledIntro>
+        <StyledButtons>
+          <Button color={"red"} text={"Resume"} link={resume.link} />
+          <Button color={"grey"} text={"Contact Me"} link={email.email} />
+        </StyledButtons>
       </StyledContent>
       <StyledImage src={ms} alt="Monika Swidzinska" />
     </StyledHome>
