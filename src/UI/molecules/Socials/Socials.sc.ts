@@ -4,6 +4,6 @@ export const StyledSocials = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  width: 9rem;
+  width: 10rem;
   margin: 4rem 0 1rem 0;
 `;

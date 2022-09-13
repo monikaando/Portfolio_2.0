@@ -1,3 +1,3 @@
-import Socials from "./Socials/Socials";
+import Button from "./Button/Button";
 
-export { Socials };
+export { Button };

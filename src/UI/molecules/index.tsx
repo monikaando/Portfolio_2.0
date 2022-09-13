@@ -1,3 +1,3 @@
-// import Navigation from './Navigation/Navigation'
+import Socials from "./Socials/Socials";
 
-// export { Navigation }
+export { Socials };

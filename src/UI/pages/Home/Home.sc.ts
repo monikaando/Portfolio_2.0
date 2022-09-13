@@ -4,7 +4,7 @@ const { red, white } = colors;
 
 export const StyledHome = styled.div``;
 export const StyledContent = styled.div`
-  margin-top: 7%;
+  margin-top: 15%;
   display: flex;
   flex-direction: column;
   width: 40%;
@@ -28,5 +28,5 @@ export const StyledImage = styled.img`
   position: absolute;
   bottom: 0;
   right: 10%;
-  width: 27%;
+  width: 26%;
 `;
