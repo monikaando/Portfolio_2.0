@@ -1,3 +1,3 @@
-// import BigTitle from "./BigTitle/BigTitle";
+import Socials from "./Socials/Socials";
 
-// export { BigTitle };
+export { Socials };

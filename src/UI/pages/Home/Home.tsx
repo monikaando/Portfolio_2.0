@@ -29,7 +29,7 @@ const Home = () => {
         </StyledIntro>
         <StyledButtons>
           <Button color={"red"} text={"Resume"} link={resume} />
-          <Button color={"grey"} text={"Contact Me"} link={email} />
+          <Button color={"grey"} text={"Contact"} link={email} />
         </StyledButtons>
       </StyledContent>
       <StyledImage src={ms} alt="Monika Swidzinska" />

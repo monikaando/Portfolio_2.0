@@ -18,5 +18,4 @@
     "baseUrl": "src/",
     "types": [ "@types/webrtc" ]
   },
-  "include": ["src", "**/*.config.js"]
-}
+  "include": ["src", "**/*.config.js","globals.d.ts"]}

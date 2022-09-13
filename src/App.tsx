@@ -1,5 +1,5 @@
 import { FC, ReactElement } from "react";
-
+import { Socials } from "UI/atoms";
 import { Navigation } from "UI/organisms";
 import Home from "UI/pages/Home/Home";
 import { StyledApp, StyledContent } from "./App.sc";
@@ -13,7 +13,7 @@ const App: FC = (): ReactElement => {
         {/* here add rendering content acording to what was clicked in the menu */}
         {/* {activeTab === 'home' && ()} */}
       </StyledContent>
-      {/* <Socials/> */}
+      <Socials />
     </StyledApp>
   );
 };

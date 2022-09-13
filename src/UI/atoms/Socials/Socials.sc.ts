@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import { colors } from "assets/common/colors";
-const { white } = colors;
 
-export const StyledSocials = styled.div``;
-
-export const StyledIcon = styled.div`
-  color: ${white};
+export const StyledSocials = styled.div`
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 9rem;
+  margin: 4rem 0 1rem 0;
 `;
