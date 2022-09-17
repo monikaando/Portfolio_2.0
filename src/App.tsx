@@ -2,16 +2,21 @@ import React, { FC, ReactElement } from "react";
 import { Navigation } from "./UI/organisms";
 import { Socials } from "./UI/molecules";
 import { StyledApp, StyledContent } from "./App.sc";
-import { Home } from "./UI/pages";
+import { Home, About, Projects, Blog, Contact } from "./UI/pages";
+import { useAppSelector } from "./app/hooks";
 
 const App: FC = (): ReactElement => {
+  const activeTab = useAppSelector((state) => state.navigation.activeTab);
+
   return (
     <StyledApp>
       <Navigation />
       <StyledContent>
-        <Home />
-        {/* here add rendering content acording to what was clicked in the menu */}
-        {/* {activeTab === 'home' && ()} */}
+        {activeTab === "Home" && <Home />}
+        {activeTab === "About" && <About />}
+        {activeTab === "Projects" && <Projects />}
+        {activeTab === "Blog" && <Blog />}
+        {activeTab === "Contact" && <Contact />}
       </StyledContent>
       <Socials />
     </StyledApp>

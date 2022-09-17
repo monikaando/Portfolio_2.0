@@ -6,7 +6,7 @@ interface NavigationState {
 }
 
 const initialState: NavigationState = {
-  activeTab: "home",
+  activeTab: "Home",
 };
 
 const navigationsSlice = createSlice({
