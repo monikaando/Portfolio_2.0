@@ -1,16 +1,38 @@
 import React from "react";
-import { StyledNavigation, StyledNavItem } from "./Navigation.sc";
+import { UseWindowSize } from "../../../hooks";
+
+import {
+  StyledMobileNav,
+  StyledNavigation,
+  StyledNavItem,
+} from "./Navigation.sc";
 // import { resume } from 'assets/common/resume'
 
 const Navigation = () => {
+  const { width } = UseWindowSize();
+  const navItems = ["Home", "About", "Projects", "Blog", "Contact"];
+
   return (
-    <StyledNavigation>
-      <StyledNavItem>Home</StyledNavItem>
-      <StyledNavItem>About</StyledNavItem>
-      <StyledNavItem>Projects</StyledNavItem>
-      <StyledNavItem>Blog</StyledNavItem>
-      <StyledNavItem>Contact</StyledNavItem>
-    </StyledNavigation>
+    <>
+      {width && width < 700 ? (
+        <div>
+          <StyledMobileNav>Mobile Nav</StyledMobileNav>
+        </div>
+      ) : (
+        <StyledNavigation>
+          {navItems.map((item: string) => (
+            <StyledNavItem
+              key={item}
+              // onClick={() => dispatch(setActiveTab(item))}
+              // onClick={console.log(item)}
+            >
+              <p>{item}</p>
+            </StyledNavItem>
+          ))}
+        </StyledNavigation>
+      )}
+      ;
+    </>
   );
 };
 

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { images } from "assets/common/links";
+import { images } from "./assets/common/links";
 const { background } = images;
 
 export const StyledApp = styled.div`

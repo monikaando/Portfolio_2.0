@@ -1,4 +1,4 @@
-import { FC, ReactElement } from "react";
+import React, { FC, ReactElement } from "react";
 import { StyledButton } from "./Button.sc";
 
 export type ButtonProps = {

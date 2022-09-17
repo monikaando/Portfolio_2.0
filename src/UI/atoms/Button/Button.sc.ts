@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { colors } from "assets/common/colors";
+import { colors } from "../../../assets/common/colors";
 
 const { white, mediumRed, darkRed, grey, darkGrey } = colors;
 

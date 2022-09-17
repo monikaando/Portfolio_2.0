@@ -7,8 +7,8 @@ import {
   StyledContent,
   StyledImage,
 } from "./Home.sc";
-import { images, links } from "assets/common/links";
-import { Button } from "UI/atoms";
+import { images, links } from "../../../assets/common/links";
+import { Button } from "../../atoms";
 const { ms } = images;
 const { resume, email } = links;
 

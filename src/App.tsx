@@ -1,8 +1,8 @@
-import { FC, ReactElement } from "react";
-import { Navigation } from "UI/organisms";
-import { Socials } from "UI/molecules";
+import React, { FC, ReactElement } from "react";
+import { Navigation } from "./UI/organisms";
+import { Socials } from "./UI/molecules";
 import { StyledApp, StyledContent } from "./App.sc";
-import { Home } from "UI/pages";
+import { Home } from "./UI/pages";
 
 const App: FC = (): ReactElement => {
   return (
