@@ -9,7 +9,7 @@ import {
 } from "./Home.sc";
 import { images, links } from "../../../assets/common/links";
 import { Button } from "../../atoms";
-const { ms } = images;
+const { businessPhoto } = images;
 const { resume, email } = links;
 
 const Home = () => {
@@ -32,7 +32,7 @@ const Home = () => {
           <Button color={"grey"} text={"Contact"} link={email} />
         </StyledButtons>
       </StyledContent>
-      <StyledImage src={ms} alt="Monika Swidzinska" />
+      <StyledImage src={businessPhoto} alt="Monika Swidzinska" />
     </StyledHome>
   );
 };
