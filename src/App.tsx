@@ -3,7 +3,7 @@ import { Navigation } from "./UI/organisms";
 import { Socials } from "./UI/molecules";
 import { StyledApp, StyledContent } from "./App.sc";
 import { Home, About, Projects, Blog, Contact } from "./UI/pages";
-import { useAppSelector } from "./app/hooks";
+import { useAppSelector } from "./hooks/hooks";
 
 const App: FC = (): ReactElement => {
   const activeTab = useAppSelector((state) => state.navigation.activeTab);

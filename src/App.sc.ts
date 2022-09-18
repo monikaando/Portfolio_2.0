@@ -10,6 +10,7 @@ export const StyledApp = styled.div`
   background-image: url(${background});
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   padding: 0 7rem;
 `;

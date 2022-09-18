@@ -1,9 +1,6 @@
 // DUCKS pattern
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-
-interface NavigationState {
-  activeTab: string;
-}
+import { NavigationState } from "../../interfaces";
 
 const initialState: NavigationState = {
   activeTab: "Home",

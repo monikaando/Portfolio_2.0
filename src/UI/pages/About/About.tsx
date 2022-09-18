@@ -13,7 +13,10 @@ const { ironhackPhoto } = images;
 const About = () => {
   return (
     <StyledAbout>
-      <StyledImage src={ironhackPhoto} alt="Monika Swidzinska" />
+      <StyledImage
+        src={ironhackPhoto}
+        alt="Monika Swidzinska Ironhack Amsterdam"
+      />
       <StyledContent>
         <StyledTitle>Who I am?</StyledTitle>
         <StyledText>

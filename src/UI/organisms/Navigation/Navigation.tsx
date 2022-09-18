@@ -1,12 +1,12 @@
 import React, { FC } from "react";
-import { UseWindowSize } from "../../../hooks";
-import { useAppSelector, useAppDispatch } from "../../../app/hooks";
+import { useAppSelector, useAppDispatch } from "../../../hooks/hooks";
 import { changeTab } from "../../../features/navigation/navigation-slice";
 import {
   StyledMobileNav,
   StyledNavigation,
   StyledNavItem,
 } from "./Navigation.sc";
+import UseWindowSize from "../../../hooks/useWindowSize";
 // import { resume } from 'assets/common/resume'
 
 const Navigation = () => {
