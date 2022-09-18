@@ -12,8 +12,8 @@ const YouTubeVideo: FC<YouTubeVideoProps> = ({
   };
 
   const opts: YouTubeProps["opts"] = {
-    height: "340",
-    width: "500",
+    height: "480",
+    width: "700",
     playerVars: {
       autoplay: 1,
     },
