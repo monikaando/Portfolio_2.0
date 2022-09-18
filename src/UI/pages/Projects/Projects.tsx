@@ -1,7 +1,6 @@
 import React from "react";
 import { projects } from "../../../assets/copy/projects";
 import { Project } from "../../../interfaces";
-import YouTubeVideo from "../../../thirdParty/YouTube";
 import { Button } from "../../atoms";
 import {
   StyledProjects,
@@ -10,6 +9,8 @@ import {
   StyledContent,
   StyledTitle,
   StyledText,
+  StyledTextSpace,
+  StyledCredentials,
 } from "./Projects.sc";
 
 const Projects = () => {
@@ -17,9 +18,15 @@ const Projects = () => {
     <StyledProjects>
       {projects.map((item: Project) => (
         <StyledProject key={item.id}>
-          {" "}
           <StyledTitle>{item.title}</StyledTitle>
-          <YouTubeVideo videoId={item.videoId} />{" "}
+          <iframe
+            width="700"
+            height="480"
+            frameBorder="0"
+            src={`https://www.youtube.com/embed/${item.videoId}`}
+            title={item.title}
+            allowFullScreen
+          ></iframe>
           <StyledButtons>
             {item.github ? (
               <Button color={"red"} text={"Github"} link={item.github} />
@@ -37,18 +44,19 @@ const Projects = () => {
             {item.description2 ? (
               <StyledText>{item.description2}</StyledText>
             ) : null}
-            <StyledText>
+            <StyledTextSpace>
               <b>Stack:</b> {item.stack}
-            </StyledText>
+            </StyledTextSpace>
             {item.test ? (
-              <>
+              <StyledTextSpace>
+                <StyledCredentials>Testing credentials:</StyledCredentials>
                 <StyledText>
-                  <b>Login:</b> {item.test.login}
+                  <u>Login:</u> {item.test.login}
                 </StyledText>
                 <StyledText>
-                  <b>Password:</b> {item.test.password}
+                  <u>Password:</u> {item.test.password}
                 </StyledText>
-              </>
+              </StyledTextSpace>
             ) : null}
           </StyledContent>
         </StyledProject>

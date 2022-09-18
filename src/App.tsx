@@ -16,7 +16,7 @@ const App: FC = (): ReactElement => {
         {activeTab === "About" && <About />}
         {activeTab === "Projects" && <Projects />}
         {activeTab === "Blog" && <Blog />}
-        {activeTab === "Contact" && <Contact />}
+        {/* {activeTab === "Contact" && <Contact />} */}
       </StyledContent>
       <Socials />
     </StyledApp>
