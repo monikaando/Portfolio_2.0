@@ -11,7 +11,8 @@ export const StyledApp = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   padding: 0 7rem;
 `;
 export const StyledContent = styled.div``;

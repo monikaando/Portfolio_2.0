@@ -13,6 +13,7 @@ export const StyledProject = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
+  width: 40%;
 `;
 export const StyledContent = styled.div`
   display: flex;
