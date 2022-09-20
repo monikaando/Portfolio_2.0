@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React from "react";
 import { useAppSelector, useAppDispatch } from "../../../hooks/hooks";
 import { changeTab } from "../../../features/navigation/navigation-slice";
 import {
