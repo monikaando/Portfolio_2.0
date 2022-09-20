@@ -7,6 +7,7 @@ import { links } from "../../../assets/common/links";
 
 const { github, linkedin, email } = links;
 
+//make it buttons, put in a loop
 const Socials = () => {
   return (
     <StyledSocials>
