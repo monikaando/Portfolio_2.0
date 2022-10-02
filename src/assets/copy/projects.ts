@@ -3,6 +3,7 @@ export const projects = [
     id: "17",
     videoId: "QlM3mzdR6RA",
     title: "Jokes App",
+    year: "2020",
     description:
       "Application with jokes selected randomly from two different APIs",
     stack: "Vue.js, Axios, CSS, HTML",
@@ -13,6 +14,8 @@ export const projects = [
     id: "16",
     videoId: "7nGHQtX-3Nw",
     title: "Movie App",
+    year: "2020",
+
     description: "Database of movies",
     stack: "React, Axios, Bootstrap, Sass, BEM, HTML",
     live_version: "https://mswidzinska.github.io/Movie-Database-App/",
@@ -22,6 +25,7 @@ export const projects = [
     id: "15",
     videoId: "NLCn2qtxro0",
     title: "DoGGO App",
+    year: "2020",
     description: "Application showing facts about dogs",
     stack: "React, Axios, Bootstrap, Sass, HTML",
     live_version: "https://mswidzinska.github.io/DoGGo-App",
@@ -31,6 +35,7 @@ export const projects = [
     id: "14",
     videoId: "SOFQ6ZrYIBA",
     title: "Poll App",
+    year: "2020",
     description:
       "Voting App. User can add questions and answers, vote on them an",
     stack: "React, Chart.js, Bootstrap, CSS, HTML",
@@ -41,6 +46,7 @@ export const projects = [
     id: "13",
     videoId: "GI_m390kFXA",
     title: "Chart - GoJs",
+    year: "2020",
     description: "A small project to check possibilities of GoJs",
     stack: "GoJS, CSS, HTML",
     github: "https://github.com/mswidzinska/GoJS_graph",
@@ -49,6 +55,7 @@ export const projects = [
     id: "12",
     videoId: "FQYy_yPY5Y4",
     title: "FizzyBuzz Game - Mobile App - IONIC",
+    year: "2020",
     description:
       "FizzyBuzz Game - Mobile App (based on Fizz Buzz Game as a responsive website).",
     stack: "IONIC, Angular, TypeScript, RxJS, SASS, HTML",
@@ -58,6 +65,7 @@ export const projects = [
     id: "11",
     videoId: "ceyOipgvLQ8",
     title: "Fizz Buzz Game - Angular",
+    year: "2020",
     description: "Fizz Buzz Game as a responsive website.",
     stack: "Angular, TypeScript, RxJS, SASS, HTML",
     github:
@@ -67,6 +75,7 @@ export const projects = [
     id: "10",
     videoId: "lrjsvRbPDzM",
     title: "BeerApp - Angular",
+    year: "2020",
     description:
       "Application uses BreweryDB's API to search breweries by country and name and to search beers by name, type and country.",
     description2: "Variation of the previous project 'TapApp - React'",
@@ -75,8 +84,19 @@ export const projects = [
   },
   {
     id: "9",
+    videoId: "ASt1TVXXtIA",
+    title: "TapApp - React",
+    year: "2020",
+    description:
+      "Application uses BreweryDB's API to search breweries by country and beers by name, type and country.",
+    stack: "React, API, SASS, HTML",
+    github: "https://github.com/mswidzinska/BreweryDB",
+  },
+  {
+    id: "8",
     videoId: "sR6eRGJFopg",
     title: "PetSitterApp",
+    year: "2019",
     description:
       "Application for managing a pet sitting business, includes: customers, calendar, jobs, income summary.",
     description2:
@@ -90,9 +110,10 @@ export const projects = [
     github: "https://github.com/mswidzinska/PetSittingApp-client",
   },
   {
-    id: "8",
+    id: "7",
     videoId: "6-SdYQc_kBQ",
     title: "PlayDateApp",
+    year: "2019",
     description:
       "Database of your kid's friends for tracking their availability.",
     description2: "Iron Hack project. Created together with my colleague.",
@@ -105,9 +126,10 @@ export const projects = [
     github: "https://github.com/mswidzinska/PlayDateApp",
   },
   {
-    id: "7",
+    id: "6",
     videoId: "UilWfBuWXoE",
     title: "Hungry Monkey",
+    year: "2019",
     description:
       "Iron Hack project. Game with collision detection. Choose your avatar. Collect bananas, avoid coconuts and the snake.",
     stack: "JavaScript, CSS, HTML",
@@ -115,26 +137,19 @@ export const projects = [
     github: "https://github.com/mswidzinska/Hungry-Monkey",
   },
   {
-    id: "6",
+    id: "5",
     videoId: "wMFKSYX0prQ",
     title: "Soraya Schultz - Mindset Coach Utrecht",
+    year: "2019",
     description: "Website built with Wordpress and Ultra Themify template.",
     stack: "Wordpress, CSS, HTML",
     live_version: "https://sorayaschultz.nl/",
   },
   {
-    id: "5",
-    videoId: "ASt1TVXXtIA",
-    title: "TapApp - React",
-    description:
-      "Application uses BreweryDB's API to search breweries by country and beers by name, type and country.",
-    stack: "React, API, SASS, HTML",
-    github: "https://github.com/mswidzinska/BreweryDB",
-  },
-  {
     id: "4",
     videoId: "ONEjL4bPJmA",
     title: "Blog Api",
+    year: "2019",
     description:
       "Application uses API to send form's data to the database and then shows blog posts from this database.",
     stack: "React, API, SASS, HTML",
@@ -144,6 +159,7 @@ export const projects = [
     id: "3",
     videoId: "WwiFXxV1ydw",
     title: "Iron Beers",
+    year: "2019",
     description:
       "Application uses API to show the list of beers, random beer, beer's details and allow to create a new beer.",
     stack: "React, API, Bulma, HTML",
@@ -153,6 +169,7 @@ export const projects = [
     id: "2",
     videoId: "nMWnO1S3KwU",
     title: "Wiki Countries",
+    year: "2019",
     description:
       " Application uses API to show the list of countries, their name, capital, area and borders with another countries.",
     stack: "React, API, Bootstrap, HTML",
@@ -162,6 +179,7 @@ export const projects = [
     id: "1",
     videoId: "u5aPGrda-c0",
     title: "Recipes & Cooks",
+    year: "2019",
     description:
       " Application with recipes. It is possible to see list of recipes, detail page of recipe, delete, update recipes and create own recipe.",
     stack: "NodeJS, ExpressJS, CSS, HTML",

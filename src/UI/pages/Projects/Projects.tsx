@@ -8,6 +8,7 @@ import {
   StyledButtons,
   StyledContent,
   StyledTitle,
+  StyledYear,
   StyledText,
   StyledTextSpace,
   StyledCredentials,
@@ -19,6 +20,7 @@ const Projects = () => {
       {projects.map((item: Project) => (
         <StyledProject key={item.id}>
           <StyledTitle>{item.title}</StyledTitle>
+          <StyledYear>Made in {item.year}</StyledYear>
           <iframe
             width="700"
             height="480"

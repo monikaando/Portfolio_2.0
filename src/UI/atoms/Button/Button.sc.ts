@@ -6,14 +6,14 @@ const { white, mediumRed, darkRed, grey, darkGrey } = colors;
 type StyledButtonProps = {
   color: "red" | "grey";
 };
-export const StyledButton = styled.button<StyledButtonProps>`
+export const StyledButton = styled.a<StyledButtonProps>`
   z-index: 1;
-  padding: 0.5rem 2.5rem;
+  padding: 0.4rem 2.5rem;
   transition: all 0.2s ease-in;
   border-radius: 0.4rem;
   color: ${white};
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 0.9rem;
+  font-weight: 500;
   letter-spacing: 0.08em;
   text-decoration: none;
   width: fit-content;

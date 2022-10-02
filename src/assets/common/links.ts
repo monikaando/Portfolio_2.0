@@ -4,7 +4,7 @@ export const images = {
   businessPhoto:
     "https://res.cloudinary.com/mokaweb/image/upload/v1663000573/Portfolio2.0/HD_IMG_6479-removebg_p9f0r6.png",
   ironhackPhoto:
-    "https://res.cloudinary.com/mokaweb/image/upload/v1663515666/Portfolio2.0/Monika_Swidzinska_Ironhack.jpg",
+    "https://res.cloudinary.com/mokaweb/image/upload/v1664695382/Portfolio2.0/Monika_Swidzinska.jpg",
 };
 export const links = {
   resume:

@@ -22,6 +22,7 @@ export const StyledIntro = styled.div`
 `;
 export const StyledButtons = styled.div`
   margin-top: 5rem;
+  min-width: 40vw;
 `;
 export const StyledImage = styled.img`
   position: absolute;

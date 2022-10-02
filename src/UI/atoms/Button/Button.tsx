@@ -14,9 +14,9 @@ const Button: FC<ButtonProps> = ({
   return (
     <StyledButton
       color={color}
-      // href={link}
-      // target="_blank"
-      // rel="noopener noreferrer"
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
     >
       {text}
     </StyledButton>

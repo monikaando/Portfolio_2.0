@@ -19,13 +19,18 @@ export const StyledContent = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
-  /* max-width: 70%; */
 `;
 export const StyledButtons = styled.div`
   margin: 2rem 0;
 `;
 export const StyledTitle = styled.h2`
   color: ${red};
+  margin-bottom: 0;
+`;
+export const StyledYear = styled.p`
+  color: ${white};
+  font-size: 0.6rem;
+  font-weight: 500;
 `;
 
 export const StyledText = styled.p`

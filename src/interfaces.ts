@@ -9,6 +9,7 @@ export interface Test {
   password: string;
 }
 export interface Project {
+  year: string;
   id: string;
   videoId: string;
   title: string;
