@@ -15,7 +15,7 @@ const About = () => {
   return (
     <StyledAbout>
       <StyledContent>
-        <StyledTitle>Who I am?</StyledTitle>
+        <StyledTitle>Who am I?</StyledTitle>
         <StyledImage
           src={ironhackPhoto}
           alt="Monika Swidzinska Ironhack Amsterdam"

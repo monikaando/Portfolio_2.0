@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledSocials = styled.div`
+export const StyledSocials = styled.footer`
   display: flex;
   align-items: flex-end;
   justify-content: space-between;

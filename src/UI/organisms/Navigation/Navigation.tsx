@@ -29,7 +29,7 @@ const Navigation = () => {
               onClick={() => dispatch(changeTab(item))}
               activeTabNav={activeTab === item ? activeTab : ""}
             >
-              <p>{item}</p>
+              <span>{item}</span>
             </StyledNavItem>
           ))}
         </StyledNavigation>
